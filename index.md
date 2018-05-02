@@ -37,41 +37,74 @@ There are four pillars in Quality Manifesto - here is how Vastness is going to i
 
 ![Vastness Overview](https://raw.githubusercontent.com/vastness-io/website/master/images/BigPicture.png)
 
-### SCM source
+#### SCM source
 
-### Metadata source
+#### Metadata source
 
-### Commit Scanner
+#### Commit Scanner
 
-### Data
+#### Data
 
-### Language snippet registry
+#### Language snippet registry
 
-### Workflow builder
+#### Workflow builder
 
-### Worker builder
+#### Worker builder
 
-### Build system
+#### Build system
 
-### Notifier
+#### Notifier
 
-### Test flow & Test toolset
+#### Test flow & Test toolset
 
-### Deployment flow
+#### Deployment flow
 
-### Registry
+#### Registry
 
-### Live deployment
+#### Live deployment
 
-### Dashboards, alerts, reports
+#### Dashboards, alerts, reports
 
-### Machine learning & Pattern predictor
+#### Machine learning & Pattern predictor
 
 
 ## First stages
 
 
 ![CommitScanner](https://raw.githubusercontent.com/vastness-io/website/master/images/CommitScanner.png)
+
+
+#### SCM & Metadata 
+
+#### SCM Controller
+
+#### Payload Mapper
+
+#### API Server
+
+#### Data
+
+#### State DB
+
+#### Linguist
+
+#### Parser
+
+#### Workflow checker
+
+#### Security scanner
+
+#### Workflow builder
+
+#### Notifier
+
+#### SCM Reporter
+
+#### Workflow commiter
+
+#### Workflow starter
+
+#### Build system
 
 ## Current status
 
