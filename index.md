@@ -39,6 +39,9 @@ There are four pillars in Quality Manifesto - here is how Vastness is going to i
 
 ## First stages
 
+
+![CommitScanner](https://raw.githubusercontent.com/vastness-io/website/master/images/CommitScanner.png)
+
 ## Next challenges
 
 ## How to contribute
