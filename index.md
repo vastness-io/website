@@ -35,7 +35,7 @@ There are four pillars in Quality Manifesto - here is how Vastness is going to i
 
 ## The big picture
 
-![Vastness Overview](website/blob/master/images/BigPicture.png)
+[Vastness Overview]: https://github.com/vastness-io/website/blob/master/images/BigPicture.png
 
 ## First stages
 
