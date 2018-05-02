@@ -38,8 +38,10 @@ There are four pillars in Quality Manifesto - here is how Vastness is going to i
 ![Vastness Overview](https://raw.githubusercontent.com/vastness-io/website/master/images/BigPicture.png)
 
 #### SCM source
+Your source server - Github, Gitlab, Bitbucket
 
 #### Metadata source
+Place where additional information is stored, for example Slack channel for notifications, deployment targets. It can be an SCM server plugin.
 
 #### Commit Scanner
 
