@@ -140,8 +140,21 @@ Set of services that execute the workflow.
 
 ## Current status
 
+## Tech stack
+Current microservices are written in *Golang* and we see it as a preferred choice for development of most future components. There are no frontend instances yet and choice for language has not been made for it. Pazuzu registry is currently in Java with Spring, but it requires heavy rewriting and it may be changed into Golang too.
+
 ## Next challenges
 
+### Self-registering subtask implementations
+
 ## How to contribute
+We are looking for all people passionate about quality:
++ Backend developers proficient in Golang
++ Frontend developers (yes, we need a better website than Github Pages)
++ DevOps specialists
++ QA Engineers - for defining workflows and services
++ Data Science & Machine Learning
+
+Please do drop us a line and we will add you to the slack channel :)
 
 ## FAQ
