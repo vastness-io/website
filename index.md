@@ -2,7 +2,7 @@
 
 ## Continuous Quality Platform
 
-Vastness is the implementation of the [Quality Manifesto](qualitymanifesto.io) for entire CI/CD stack. It can be seen as a replacement of build servers like Jenkins, Teamcity, Bamboo. But this explanation would be too simplistic - ambitions of the platform are way bigger. The goal is to bring the same revolution as Docker and Kubernetes brought to DevOps world, but in Dev/QA area. With this project we want to make quality important, easy and fascinating. 
+Vastness is the implementation of the [Quality Manifesto](http://qualitymanifesto.io) for entire CI/CD stack. It can be seen as a replacement of build servers like Jenkins, Teamcity, Bamboo. But this explanation would be too simplistic - ambitions of the platform are way bigger. The goal is to bring the same revolution as Docker and Kubernetes brought to DevOps world, but in Dev/QA area. With this project we want to make quality important, easy and fascinating. 
 
 ## Vastness overview
 
