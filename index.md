@@ -44,30 +44,43 @@ Your source server - Github, Gitlab, Bitbucket
 Place where additional information is stored, for example Slack channel for notifications, deployment targets. It can be an SCM server plugin.
 
 #### Commit Scanner
+Collection of services that process all events coming from SCM. Examples would be parsing commits for new programming languages, updating pipeline definitions, notifying SCM about results. It's one of the two biggest building blocks, alongside build system.
 
 #### Data
+Central database storing information about everything related to the code, from the first commit till a system running in production.
 
 #### Language snippet registry
+Repository od small code snippets with their dependencies and metadata. It can store multiple languages of snippets, in our case it's Dockerfile snippets for generating build executors and Pipeline steps for creating job definitions. It has built-in topological sorting for resolving dependencies.
 
 #### Workflow builder
+Generator of workflow pipelines, based on results of commit scanner. Talks to snipper registry to translate requirements into sorted output.
 
 #### Worker builder
+Generator of container-based workers for executing builds. Talks to snipper registry to translate requirements into docker images.
 
 #### Build system
+Set of services and tools managing the entire build system. It includes modules like queues, queue managers, resource managers, state memory, secrets manager.
 
 #### Notifier
+Set of tools for notifying about events and build results. It would include things like reporting back to SCM, Slack notifications, emails.
 
 #### Test flow & Test toolset
+Set of internal and external tools that get triggered by the build system. Some of them can be calls to external services.
 
 #### Deployment flow
+Set of tasks and services responsible for deploying the application.
 
 #### Registry
+External services that accept build artifacts, so it can be Docker registry, npm registry, jar storage.
 
 #### Live deployment
+Running deployed application, that feeds data related to pushed code back to database.
 
 #### Dashboards, alerts, reports
+All services responsible for alerting and monitoring of all actions around the code.
 
 #### Machine learning & Pattern predictor
+Services that would use the stored data for many actions. Some possibilities: looking for trends in commit quality (e.x. notify developer if his quality is getting lower), starting idle workers when more commits are expected.
 
 
 ## First stages
