@@ -147,6 +147,9 @@ Current microservices are written in *Golang* and we see it as a preferred choic
 
 ### Self-registering subtask implementations
 
+API Server in Commit Scanner module and also the Build System require a flexible way of executing steps. For that we want to define in the server basic step (subtask) definitions (interfaces) that can be implemented by external services. Only when all required steps are implemented, the server becomes healthy and available for processing requests. It is possible to have multiple services implementing a step, based on rules (e.x. for PCI-compliant repositories; only Github commits, but not Bitbucket ones). Every step definition has the trigger rules, incoming payload, outgoing payload. There is also a possibility to implement undefined steps, and it requires declaring the order in the queue of steps. 
+Our research did not find a suitable library or software that would allow such a specific software discovery/plugin system, so it has to be developed here, probably as a separate project, so it can be used by other people having similar usecase.
+
 ## How to contribute
 We are looking for all people passionate about quality:
 + Backend developers proficient in Golang
