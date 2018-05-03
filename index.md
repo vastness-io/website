@@ -158,6 +158,6 @@ We are looking for all people passionate about quality:
 + QA Engineers - for defining workflows and services
 + Data Science & Machine Learning
 
-Please do drop us a line and we will add you to the [slack channel](https://vastness.slack.com) :)
+Please do drop us a line at our [slack channel](https://join.slack.com/t/vastness/shared_invite/enQtMzU4MDM5NjEwNjU4LTEzNjc2MjE4NzUxNGI4MGM3MDhkMDI3ZWRjY2VmNTI4OWU0MDcwNWQ1NDEwZjg5ZDFiYjBkMGNjOTkzMjE5ODE) :)
 
 ## FAQ
