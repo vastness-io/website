@@ -32,6 +32,7 @@ There are four pillars in Quality Manifesto - here is how Vastness is going to i
 + Actionable quality: only show alerts that can be acted on
 
 ## Target audience
+Main user group would be bigger companies with multiple programming teams that have a big amount of projects, including a substantial amount of complex ones. For smaller teams or single projects, it would be best to deploy Vastness centrally and offer it as a service offering, in a similar way to Travis for Github.
 
 ## The big picture
 
@@ -90,36 +91,52 @@ Services that would use the stored data for many actions. Some possibilities: lo
 
 
 #### SCM & Metadata 
+Code repositories and associated metadata.
 
 #### SCM Controller
+Service that validates incoming events from SCM and passes them to payload mapper.
 
 #### Payload Mapper
+Mapping from multiple SCM formats into a standard Vastness one, so they can be uniformly processed later.
 
 #### API Server
+The most important building block in that area of Vastness. It is responsible for taking SCM events and dividing them into subtasks. It then communicates with services that implement subtask steps and transfers data between them. All results get reported to central database.
 
 #### Data
+Central database with all code information and results.
 
 #### State DB
+Database to back up state of queues and tasks from API server.
 
 #### Linguist
+A service that scans incoming events to detect changes in used programming languages and build and test tools.
 
 #### Parser
+A service that scans contents of config files for information, e.x. pom.xml
 
 #### Workflow checker
+A service that checks if build pipeline has to be modified.
 
 #### Security scanner
+Possible security checks in the commits, e.x. adding credentials.
 
 #### Workflow builder
+A service to generate workflow definition based on results of previous steps.
 
 #### Notifier
+Set of services to notify of results into all possible channels, e.x. Slack, email.
 
 #### SCM Reporter
+Reporting back to SCM about results.
 
 #### Workflow commiter
+Creates a Pull Requests back to repository if there was a change in workflow definition file.
 
 #### Workflow starter
+Starts a job on the build system for the processed event.
 
 #### Build system
+Set of services that execute the workflow.
 
 ## Current status
 
