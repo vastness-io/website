@@ -160,4 +160,7 @@ We are looking for all people passionate about quality:
 
 Please do drop us a line at our [slack channel](https://join.slack.com/t/vastness/shared_invite/enQtMzU4MDM5NjEwNjU4LTEzNjc2MjE4NzUxNGI4MGM3MDhkMDI3ZWRjY2VmNTI4OWU0MDcwNWQ1NDEwZjg5ZDFiYjBkMGNjOTkzMjE5ODE) :)
 
+You can also take a look at our board for non-programming tasks:
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/vastness-io/project.svg?columns=all)](https://waffle.io/vastness-io/project)
+
 ## FAQ
