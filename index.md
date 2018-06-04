@@ -164,4 +164,16 @@ You can also take a look at our board for non-programming tasks:
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/vastness-io/project.svg?columns=all)](https://waffle.io/vastness-io/project)
 
-## FAQ
+## License
+
+Entire Vastness project is Open Source and available under Apache2 license.
+
+## About Us
+
+**Head of Project:** [Pawel Gronkiewicz](https://www.linkedin.com/in/pgronkiewicz/)
+
+**Lead Developer:** [Joel Whittaker-Smith](https://www.linkedin.com/in/joel-whittaker-smith-b70b30b2/)
+
+**Product Owner - Test Automation Components:** [Tatiana Kudryavtseva](https://www.linkedin.com/in/tatiana-kudriavtseva-154bb131/)
+
+
