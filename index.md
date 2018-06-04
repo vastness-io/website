@@ -170,6 +170,8 @@ Entire Vastness project is Open Source and available under Apache2 license.
 
 ## About Us
 
+Vastness project is incubated at Adidas.
+
 **Head of Project:** [Pawel Gronkiewicz](https://www.linkedin.com/in/pgronkiewicz/)
 
 **Lead Developer:** [Joel Whittaker-Smith](https://www.linkedin.com/in/joel-whittaker-smith-b70b30b2/)
